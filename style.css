@@ -1,0 +1,63 @@
+.main-text {
+  font-family: 'Press Start 2P', sans-serif;
+  animation: floatScale 2.5s ease-in-out infinite;
+}
+
+@keyframes floatScale {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-15px) scale(1.1);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+.image-one {
+  position: absolute;
+  top: 0;
+  left: 40px;
+}
+
+.image-two {
+  position: absolute;
+  top: 0;
+  left: 400px;
+}
+
+.image-three {
+  position: absolute;
+  top: 0;
+  right: 40px;
+}
+
+.image-four {
+  position: absolute;
+  top: 0;
+  right: 400px;
+}
+
+.image-five {
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+}
+.image-six {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+
+.container-section {
+  width: full;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.particles {
+  position: absolute;
+}
