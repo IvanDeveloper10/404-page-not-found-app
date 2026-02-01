@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 20px;
+}
+
+
+
 .main-text {
   font-family: 'Press Start 2P', sans-serif;
   animation: floatScale 2.5s ease-in-out infinite;
@@ -41,12 +53,12 @@
 
 .image-five {
   position: absolute;
-  bottom: 0;
+  bottom: 22px;
   left: 40px;
 }
 .image-six {
   position: absolute;
-  bottom: 0;
+  bottom: 22px;
   right: 40px;
 }
 
@@ -56,8 +68,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.particles {
-  position: absolute;
+  background-color: aqua;
 }
